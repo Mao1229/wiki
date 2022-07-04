@@ -85,6 +85,7 @@
 <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
     <script>
       const gitalk = new Gitalk({
+        proxy: 'https://127.0.0.1:8081/get_access_token'
         clientID: 'e59f240011d20eb41157',
         clientSecret: '31aca3a50be774ecbc8ce732efbab5592728894a',
         repo: 'wiki',
