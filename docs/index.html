@@ -13,7 +13,10 @@
       rel="stylesheet"
       href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css"
     />
-
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css"
+    />
     <style>
       .docsify-copy-code-button {
         background: #ff7b2e;
@@ -80,12 +83,17 @@
     <!-- 上下章节 -->
     <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
     <!-- 评论 -->
-    <script src="https://utteranc.es/client.js"
-        repo="Mao1229/wiki"
-        issue-term="title"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
+   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
+    <script>
+      const gitalk = new Gitalk({
+        clientID: 'e59f240011d20eb41157',
+        clientSecret: '4c7fee859e01a9e7c89ed53fe90455e6e20daa26',
+        repo: 'wiki',
+        owner: 'Mao1229',
+        admin: ['Mao1229'],
+        distractionFreeMode: false
+      })
     </script>
   </body>
 </html>
