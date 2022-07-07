@@ -17,9 +17,17 @@
       rel="stylesheet"
       href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css"
     />
+    <!-- 字体CSS -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;600;900&amp;display=swap"
+      rel="stylesheet"
+    />
     <style>
       .docsify-copy-code-button {
         background: #ff7b2e;
+      }
+      body{
+        font-family： 'Noto Serif SC', serif;
       }
     </style>
   </head>
@@ -83,17 +91,17 @@
     <!-- 上下章节 -->
     <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
     <!-- 评论 -->
-   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
     <script>
       const gitalk = new Gitalk({
-        proxy: 'https://api.fangting.cc/get_access_token',
-        clientID: 'e59f240011d20eb41157',
-        repo: 'wiki',
-        owner: 'Mao1229',
-        admin: ['Mao1229'],
-        distractionFreeMode: false
-      })
+        proxy: "https://api.fangting.cc/get_access_token",
+        clientID: "e59f240011d20eb41157",
+        repo: "wiki",
+        owner: "Mao1229",
+        admin: ["Mao1229"],
+        distractionFreeMode: false,
+      });
     </script>
   </body>
 </html>
