@@ -3,7 +3,7 @@
 * [首页](/)
 
 * 分类
-  * [Java开发专题](java/index.md)
+  * [Java开发专题](springboot/index.md)
 
 * 关于
 
