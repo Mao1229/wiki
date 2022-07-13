@@ -1,3 +1,3 @@
 <!-- java/_sidebar.md -->
 
-- [SpringBoot](/springboot/)
+- [目录TOC](/springboot/)
