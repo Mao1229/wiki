@@ -1,3 +1,3 @@
 <!-- java/_sidebar.md -->
 
-- [SpringBoot](./)
+- [SpringBoot](/springboot/index)
