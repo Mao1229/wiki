@@ -3,7 +3,7 @@
 * [首页](/)
 
 * 分类
-  * [SpringBoot专题](springboot/index.md)
+  * [SpringBoot专题](springboot/)
 
 * 关于
 
