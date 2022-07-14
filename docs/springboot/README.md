@@ -1,13 +1,3 @@
-## SpringBoot核心功能
-- 1、独立运行Spring项目
-    - Spring boot 可以以jar包形式独立运行，运行一个Spring Boot项目只需要通过java -jar xx.jar来运行。
-- 2、内嵌servlet容器
-    - Boot可以选择内嵌Tomcat、jetty或者Undertow,这样我们无须以war包形式部署项目。
-- 3、提供starter简化Maven配置
-    - spring提供了一系列的start pom来简化Maven的依赖加载，例如，当你使用了spring-boot-starter-web，会自动加入如图5-1所示的依赖包。
-- 4、自动装配Spring
-    - SpringBoot会根据在类路径中的jar包，类、为jar包里面的类自动配置Bean，这样会极大地减少我们要使用的配置。当然，SpringBoot只考虑大多数的开发场景，并不是所有的场景，若在实际开发中我们需要配置Bean，而SpringBoot灭有提供支持，则可以自定义自动配置。
-- 5、准生产的应用监控
-    - SpringBoot提供基于http ssh telnet对运行时的项目进行监控。
-- 6、无代码生产和xml配置　　
-    - SpringBoot不是借助与代码生成来实现的，而是通过条件注解来实现的，这是Spring4.x提供的新特性。
+## SpringBoot的概述
+### SpringBoot解决上述Spring的缺点
+SpringBoot对上述Spring的缺点进行的改善和优化，基于约定优于配置的思想，可以让开发人员不必在配置与逻辑业务之间进行思维的切换，全身心的投入到逻辑业务的代码编写中，从而大大提高了开发的效率，一定程度上缩短了项目周期。
